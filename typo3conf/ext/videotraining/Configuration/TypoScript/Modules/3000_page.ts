@@ -104,6 +104,16 @@ page.10 {
 			default < .pagets__2spalten
 		}
 
+
+		siteTitle = TEXT
+				siteTitle {
+					value = {$siteTitle}
+					stdWrap.typolink.parameter = t3://page?uid={$rootID}
+					stdWrap.typolink.title = {$siteTitle} - zur Startseite
+					wrap = <h2 class="nav-brand">|</h2>
+		}
+
+
 	}
 
 }
