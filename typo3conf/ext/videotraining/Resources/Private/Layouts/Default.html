@@ -1,0 +1,41 @@
+
+
+<div class="pageheader container">
+    <div class="row">
+      <div class="col-sm-4">
+        <f:render partial="LanguageMenu"/>
+      </div>
+      <div class="col-sm-8">
+
+          <f:render partial="SearchFrom"/>
+
+      </div>
+    </div>
+  </div>
+  <div class="mainnav">
+    <nav class="main-nav container" role="navigation">
+
+      <!-- Mobile menu toggle button (hamburger/x icon) -->
+      <input id="main-menu-state" type="checkbox"/>
+      <label class="main-menu-btn" for="main-menu-state">
+        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+      </label>
+
+        <f:render partial="MainNavigation"/>
+
+
+    </nav>
+  </div><!-- Ende mainnav -->
+
+
+
+   <!-- Hier die Inhalte -->
+    <f:render section="Jumbotron"/>
+    <f:render section="multicolumn"/>
+
+
+     <f:render partial="Footer"/>
+    <hr>
+
+
+  </div> <!-- Ende Content Container -->

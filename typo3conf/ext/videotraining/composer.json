@@ -1,0 +1,28 @@
+{
+    "name": "micromegas/videotraining",
+    "type": "typo3-cms-extension",
+    "description": "Template Extension f\u00fcr mein Videotraining",
+    "authors": [
+        {
+            "name": "Axel",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Micromegas\\Videotraining\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Micromegas\\Videotraining\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "videotraining": "self.version",
+        "typo3-ter/videotraining": "self.version"
+    }
+}

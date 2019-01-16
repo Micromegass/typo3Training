@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Template Extension f\u00fcr mein Videotraining",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "videotraining",
+        "name": "Axel's Training ",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Axel",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Micromegas"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2019-01-14 04:47",
+        "extension_builder_version": "8.10.2",
+        "be_user": " (1)"
+    }
+}

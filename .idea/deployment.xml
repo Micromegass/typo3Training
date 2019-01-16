@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="Training" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="Training">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="t3" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="fileadmin" />
+            <excludedPath path="typo3" />
+            <excludedPath path="typo3temp" />
+            <excludedPath path="uploads" />
+            <excludedPath path="vendor" />
+            <excludedPath path="typo3conf/autoload" />
+            <excludedPath path="typo3conf/l10n" />
+            <excludedPath path="typo3conf/ext/extension_builder" />
+            <excludedPath local="true" path="$PROJECT_DIR$/fileadmin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3temp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/uploads" />
+            <excludedPath local="true" path="$PROJECT_DIR$/vendor" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3conf/autoload" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3conf/l10n" />
+            <excludedPath local="true" path="$PROJECT_DIR$/typo3conf/ext/extension_builder" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
