@@ -1,7 +1,7 @@
 mod.web_layout.BackendLayouts {
   jumbotron {
     title = Jumbotron
-    icon = EXT:typo38videotraining/Resources/Public/Icons/BackendLayouts/jumbotron.png
+    icon = EXT:videotraining/Resources/Public/Icons/BackendLayouts/jumbotron.png
     config {
       backend_layout {
         colCount = 3
@@ -59,7 +59,7 @@ mod.web_layout.BackendLayouts {
 mod.web_layout.BackendLayouts {
   2spalten {
     title = 2 Spalten
-    icon = EXT:typo38videotraining/Resources/Public/Icons/BackendLayouts/2spalten.png
+    icon = EXT:videotraining/Resources/Public/Icons/BackendLayouts/2spalten.png
     config {
       backend_layout {
         colCount = 3
@@ -87,7 +87,7 @@ mod.web_layout.BackendLayouts {
 mod.web_layout.BackendLayouts {
   1spalte {
     title = 1 Spalte
-    icon = EXT:typo38videotraining/Resources/Public/Icons/BackendLayouts/1spalte.png
+    icon = EXT:videotraining/Resources/Public/Icons/BackendLayouts/1spalte.png
     config {
       backend_layout {
         colCount = 1

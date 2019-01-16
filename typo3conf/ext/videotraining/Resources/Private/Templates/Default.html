@@ -1,47 +1,111 @@
-<f:layout name="Default"/>
-<!-- Main jumbotron for a primary marketing message or call to action -->
+<f:layout name="Standard"/>
+
 
 <f:section name="Jumbotron">
-   <div class="jumbotron">
-     <div class="container">
-       <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-       <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more&raquo;</a></p>
-     </div>
-   </div>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+	<div class="container">
+	<f:format.raw>{content4}</f:format.raw>
+	</div>
+</div>
 </f:section>
 
+<f:section name="Multicolumn">
+<div class="container maincontent"><!-- Content Container -->
+	<!-- Content Bereich ueber ganze Breite -->
+	<div class="row">
+		<div class="col-md-12">
+			<f:format.raw> {content0} </f:format.raw>
+		</div>
+	</div>
+	<!-- Example row of columns -->
+	<div class="row">
+		<div class="col-md-4">
+			<f:format.raw> {content1} </f:format.raw>
+		</div>
+		<div class="col-md-4">
+			<f:format.raw> {content3} </f:format.raw>
+		</div>
+		<div class="col-md-4">
+			<f:format.raw> {content2} </f:format.raw>
+		</div>
+	</div>
+	<!-- Content Bereich ueber ganze Breite -->
+	<div class="row">
+		<div class="col-md-12">
+			<f:format.raw>{content5}</f:format.raw>
+		</div>
+	</div>
+</f:section>
 
-  <f:section name="multicolumn">
-   <div class="container maincontent"><!-- Content Container -->
-     <!-- Content Bereich ueber ganze Breite -->
-     <div class="row">
-       <div class="col-md-12">
-         <h2>Content Bereich über ganze Breite</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum deserunt est eum expedita illo iste labore modi molestias nulla porro, repudiandae, similique voluptatibus? Dolorem eaque id repellat rerum veritatis!</p>
-       </div>
-     </div>
-     <!-- Example row of columns -->
-     <div class="row">
-       <div class="col-md-4">
-         <h2>Heading</h2>
-         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-       </div>
-       <div class="col-md-4">
-         <h2>Heading</h2>
-         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div>
-       <div class="col-md-4">
-         <h2>Heading</h2>
-         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-       </div>
-     </div>
-     <!-- Content Bereich ueber ganze Breite -->
-     <div class="row">
-       <div class="col-md-12">
-         <h2>Content Bereich über ganze Breite</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum deserunt est eum expedita illo iste
-           labore modi molestias nulla porro, repudiandae, similique voluptatibus? Dolorem eaque id repellat rerum
-           veritatis!</p>
-       </div>
-     </div>
-     </f:section>
+<f:section name="2Spalten">
+	<!-- Rootline -->
+	<div class="container rootline">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Library</a></li>
+			<li class="breadcrumb-item active">Data</li>
+		</ol>
+	</div>
+	<div class="container maincontent"><!-- Content Container -->
+		<div class="row">
+			<div class="col-md-8">
+				<f:format.raw>{content0}</f:format.raw>
+
+			</div>
+			<div class="col-md-4">
+				<!-- Subnavigation -->
+				<div class="card">
+					<div class="card-block">
+						<ul class="nav nav-pills nav-stacked mysubnav">
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Active</a>
+								<ul>
+									<li class="nav-item">
+										<a class="nav-link current" href="#">Subpage</a>
+										<ul>
+											<li class="nav-item">
+												<a class="nav-link" href="#">Subpage</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link current" href="#">Subpage</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Subpage</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Subnavigation Ende -->
+				<f:format.raw>{content2}</f:format.raw>
+
+			</div>
+		</div>
+</f:section>
+
+<f:section name="1Spalte">
+	<!-- Rootline -->
+	<div class="container rootline">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Library</a></li>
+			<li class="breadcrumb-item active">Data</li>
+		</ol>
+	</div>
+	<div class="container maincontent"><!-- Content Container -->
+		<div class="row">
+			<div class="col-md-12">
+				<f:format.raw>{content0}</f:format.raw>
+
+		</div>
+</f:section>
