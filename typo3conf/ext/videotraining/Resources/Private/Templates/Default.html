@@ -5,7 +5,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
 	<div class="container">
-	<f:format.raw>{content4}</f:format.raw>
+		<f:format.raw>{content4}</f:format.raw>
 	</div>
 </div>
 </f:section>
@@ -15,19 +15,19 @@
 	<!-- Content Bereich ueber ganze Breite -->
 	<div class="row">
 		<div class="col-md-12">
-			<f:format.raw> {content0} </f:format.raw>
+			<f:format.raw>{content0}</f:format.raw>
 		</div>
 	</div>
 	<!-- Example row of columns -->
 	<div class="row">
 		<div class="col-md-4">
-			<f:format.raw> {content1} </f:format.raw>
+			<f:format.raw>{content1}</f:format.raw>
 		</div>
 		<div class="col-md-4">
-			<f:format.raw> {content3} </f:format.raw>
+			<f:format.raw>{content3}</f:format.raw>
 		</div>
 		<div class="col-md-4">
-			<f:format.raw> {content2} </f:format.raw>
+			<f:format.raw>{content2}</f:format.raw>
 		</div>
 	</div>
 	<!-- Content Bereich ueber ganze Breite -->
@@ -40,72 +40,29 @@
 
 <f:section name="2Spalten">
 	<!-- Rootline -->
-	<div class="container rootline">
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Home</a></li>
-			<li class="breadcrumb-item"><a href="#">Library</a></li>
-			<li class="breadcrumb-item active">Data</li>
-		</ol>
-	</div>
+		<f:cObject typoscriptObjectPath="lib.rootline"/>
+
 	<div class="container maincontent"><!-- Content Container -->
 		<div class="row">
 			<div class="col-md-8">
 				<f:format.raw>{content0}</f:format.raw>
-
 			</div>
 			<div class="col-md-4">
 				<!-- Subnavigation -->
-				<div class="card">
-					<div class="card-block">
-						<ul class="nav nav-pills nav-stacked mysubnav">
-							<li class="nav-item">
-								<a class="nav-link active" href="#">Active</a>
-								<ul>
-									<li class="nav-item">
-										<a class="nav-link current" href="#">Subpage</a>
-										<ul>
-											<li class="nav-item">
-												<a class="nav-link" href="#">Subpage</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link current" href="#">Subpage</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Subpage</a>
-									</li>
-								</ul>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+				<f:cObject typoscriptObjectPath="lib.subnavigation"/>
 				<!-- Subnavigation Ende -->
 				<f:format.raw>{content2}</f:format.raw>
-
 			</div>
 		</div>
 </f:section>
 
 <f:section name="1Spalte">
 	<!-- Rootline -->
-	<div class="container rootline">
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="#">Home</a></li>
-			<li class="breadcrumb-item"><a href="#">Library</a></li>
-			<li class="breadcrumb-item active">Data</li>
-		</ol>
-	</div>
+	<f:cObject typoscriptObjectPath="lib.rootline"/>
 	<div class="container maincontent"><!-- Content Container -->
 		<div class="row">
 			<div class="col-md-12">
 				<f:format.raw>{content0}</f:format.raw>
-
+			</div>
 		</div>
 </f:section>

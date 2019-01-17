@@ -1,0 +1,23 @@
+TCEFORM.tt_content.header_layout {
+
+	altLabels {
+
+		0 = h2 - Themenüberschrift
+		1 = h1 - Seitenüberschrift
+		2 =
+		3 = h3 - Überschrift 3. Ordnung
+		4 = h4 - Überschrift 4. Ordnung
+		5 = h5 - Überschrift 5. Ordnung
+	}
+
+	removeItems = 2,5
+
+}
+
+
+TCEFORM.tt_content.frame_class.addItems {
+
+	greybox = graue Box
+	bluebox = blaue Box
+
+}
