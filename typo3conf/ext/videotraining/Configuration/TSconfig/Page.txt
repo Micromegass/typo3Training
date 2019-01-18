@@ -1,7 +1,5 @@
 TCEFORM.tt_content.header_layout {
-
 	altLabels {
-
 		0 = h2 - Themenüberschrift
 		1 = h1 - Seitenüberschrift
 		2 =
@@ -9,15 +7,37 @@ TCEFORM.tt_content.header_layout {
 		4 = h4 - Überschrift 4. Ordnung
 		5 = h5 - Überschrift 5. Ordnung
 	}
-
 	removeItems = 2,5
-
 }
-
 
 TCEFORM.tt_content.frame_class.addItems {
-
 	greybox = graue Box
 	bluebox = blaue Box
-
 }
+
+TCEFORM.tt_content.layout.addItems {
+	4 = Mein super Layout
+
+	## Workaround fuer reponsive videos
+	5 = Responsive Video
+}
+
+TCEFORM.sys_file_reference.crop.config.cropVariants {
+	default {
+		title = Default
+		selectedRatio = NaN
+		allowedAspectRatios {
+			4:3 {
+				title = 4:3
+				value = 1.333333333
+			}
+			16:9 {
+				title = 16:9, Breitbild
+				value = 1.777777778
+			}
+		}
+	}
+}
+
+
+RTE.default.preset = full

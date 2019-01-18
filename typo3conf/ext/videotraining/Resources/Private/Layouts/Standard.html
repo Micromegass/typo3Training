@@ -1,4 +1,4 @@
-<div class="pageheader container">
+<div class="pageheader container" xmlns:f="http://www.w3.org/1999/html">
 	<div class="row">
 		<div class="col-sm-4">
 			<f:render partial="LanguageMenu"/>
@@ -23,18 +23,48 @@
 
 
 <!-- Hier die Inhalte -->
-<f:if condition="{backendlayout}=='jumbotron'">
-	<f:render section="Jumbotron"/>
-	<f:render section="Multicolumn"/>
-</f:if>
 
-<f:if condition="{backendlayout}=='2spalten'">
-	<f:render section="2Spalten"/>
-</f:if>
+<!-- <f:debug> {backendlayout} {_all} </f:debug> !-->
+<f:switch expression="{backendlayout}">
+	<f:case value="pagets__jumbotron">
+		<f:render section="Jumbotron"/>
+		<f:render section="Multicolumn"/>
+	</f:case>
 
-<f:if condition="{backendlayout}=='1spalte'">
-	<f:render section="1Spalte"/>
-</f:if>
+	<f:case value="pagets__2spalten">
+		<f:render section="2Spalten"/>
+	</f:case>
+
+	<f:case value="pagets__1spalte">
+		<f:render section="1Spalte"/>
+	</f:case>
+
+	<f:case default="TRUE">
+		<f:render section="2Spalten"/>
+	</f:case>
+</f:switch>
+
+
+
+<f:comment>
+
+	<f:if condition="{backendlayout}=='jumbotron'">
+		<f:render section="Jumbotron"/>
+		<f:render section="Multicolumn"/>
+	</f:if>
+
+	<f:if condition="{backendlayout}=='2spalten'">
+		<f:render section="2Spalten"/>
+	</f:if>
+
+	<f:if condition="{backendlayout}=='1spalte'">
+		<f:render section="1Spalte"/>
+	</f:if>
+
+
+
+</f:comment>
+
 
 
 <!-- Beginn Footer Bereich -->

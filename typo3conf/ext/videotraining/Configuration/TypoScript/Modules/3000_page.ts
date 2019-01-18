@@ -86,8 +86,10 @@ page.10 {
 
 
 
+		backendlayout = TEXT
+		backendlayout.data = pagelayout
 
-
+/*
 		backendlayout = CASE
 		backendlayout {
 			key.data = pagelayout
@@ -103,7 +105,7 @@ page.10 {
 
 			default < .pagets__2spalten
 		}
-
+*/
 
 		siteTitle = TEXT
 				siteTitle {
