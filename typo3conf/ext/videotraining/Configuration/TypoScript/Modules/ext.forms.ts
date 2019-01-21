@@ -1,0 +1,2 @@
+plugin.tx_form.settings.yamlConfigurations.100 = EXT:videotraining/Configuration/Form/MyFormSetup.yaml
+module.tx_form.settings.yamlConfigurations.100 = EXT:videotraining/Configuration/Form/MyFormSetup.yaml

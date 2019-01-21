@@ -22,6 +22,8 @@ TCEFORM.tt_content.layout.addItems {
 	5 = Responsive Video
 }
 
+
+/*
 TCEFORM.sys_file_reference.crop.config.cropVariants {
 	default {
 		title = Default
@@ -38,6 +40,14 @@ TCEFORM.sys_file_reference.crop.config.cropVariants {
 		}
 	}
 }
+*/
 
+################## RTE: Configuration CKEditor #################
+## Standard-Konfiguration
+#RTE.default.preset = default
 
-RTE.default.preset = full
+## Minimal-Konfiguration mit wenigen Schaltflaechen
+#RTE.default.preset = minimal
+
+## Umfangreiche Konfiguration mit vielen Schaltflaechen
+RTE.default.preset = vt8_preset
