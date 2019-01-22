@@ -51,3 +51,11 @@ TCEFORM.sys_file_reference.crop.config.cropVariants {
 
 ## Umfangreiche Konfiguration mit vielen Schaltflaechen
 RTE.default.preset = vt8_preset
+
+
+mod.SHARED {
+
+	defaultLanguageFlag = de
+	defaultLanguageLabel = deutsch
+
+}
