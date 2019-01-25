@@ -13,6 +13,7 @@
 <f:section name="Multicolumn">
 <div class="container maincontent"><!-- Content Container -->
 	<!-- Content Bereich ueber ganze Breite -->
+	<!--TYPO3SEARCH_begin-->
 	<div class="row">
 		<div class="col-md-12">
 			<f:format.raw>{content0}</f:format.raw>
@@ -36,22 +37,27 @@
 			<f:format.raw>{content5}</f:format.raw>
 		</div>
 	</div>
+	<!--TYPO3SEARCH_end-->
 </f:section>
 
 <f:section name="2Spalten">
 	<!-- Rootline -->
-		<f:cObject typoscriptObjectPath="lib.rootline"/>
+	<f:cObject typoscriptObjectPath="lib.rootline"/>
 
 	<div class="container maincontent"><!-- Content Container -->
 		<div class="row">
 			<div class="col-md-8">
+				<!--TYPO3SEARCH_begin-->
 				<f:format.raw>{content0}</f:format.raw>
+				<!--TYPO3SEARCH_end-->
 			</div>
 			<div class="col-md-4">
 				<!-- Subnavigation -->
 				<f:cObject typoscriptObjectPath="lib.subnavigation"/>
 				<!-- Subnavigation Ende -->
+				<!--TYPO3SEARCH_begin-->
 				<f:format.raw>{content2}</f:format.raw>
+				<!--TYPO3SEARCH_end-->
 			</div>
 		</div>
 </f:section>
@@ -62,7 +68,9 @@
 	<div class="container maincontent"><!-- Content Container -->
 		<div class="row">
 			<div class="col-md-12">
+				<!--TYPO3SEARCH_begin-->
 				<f:format.raw>{content0}</f:format.raw>
+				<!--TYPO3SEARCH_end-->
 			</div>
 		</div>
 </f:section>

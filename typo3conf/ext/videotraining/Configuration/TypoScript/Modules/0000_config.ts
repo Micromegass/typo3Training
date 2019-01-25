@@ -6,6 +6,17 @@ config {
 	htmlTag_langKey = de
 
 
+	spamProtectEmailAddresses = 1
+
+	concatenateCss = 1
+	concatenateJs = 1
+	compressCss = 1
+	compressJs = 1
+
+
+	pageTitleFirst = 1
+	pageTitleSeparator = -
+	pageTitleSeparator.noTrimWrap = | | |
 }
 
 
